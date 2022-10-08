@@ -241,7 +241,7 @@ async function init() {
   status.textContent = "Loading model...";
   let texture, model;
   [texture, model, modelRef] = await Promise.all([
-    loader.loadAsync("../../assets/FUwKsFeWUAI5HUh.jpg"),
+    loader.loadAsync("../../assets/ao.jpg"),
     facemesh.load({ maxFaces: 1 }),
     facemesh.load({ maxFaces: 1 }),
   ]);
